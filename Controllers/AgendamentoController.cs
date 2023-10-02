@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Agenday.Models;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace Agenday.AgendamentoController
 {
@@ -9,9 +10,9 @@ namespace Agenday.AgendamentoController
     [ApiController]
     public class AgendamentoController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly DbContext _context;
 
-        public AgendamentoController (DataContext context) =>
+        public AgendamentoController (DbContext context) =>
             _context = context;
 
 
