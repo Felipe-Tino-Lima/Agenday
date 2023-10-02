@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Argenday.Models
+namespace Agenday.Models
 {
     public class Agendamento 
     {
@@ -9,9 +9,6 @@ namespace Argenday.Models
         
         public Agendamento() => CriadoEm = DateTime.Now;
         public int AgendamentoId { get; set; }
-        public string Cliente { get; set; }
-        public string Cpf { get; set; }
-        public string DataAgendamento { get; set; }
         public DateTime CriadoEm { get; set; }
     }
 }

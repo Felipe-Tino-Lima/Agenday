@@ -11,5 +11,4 @@ public class AppDataContext : DbContext
     }
 
     
-    public DbSet<Agendamento> Agendamento { get; set; }
 }

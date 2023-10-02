@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Agenday.AgendamentoController
 {
-    [Route("api/agendameto")]
+    [Route("api/agendamento")]
     [ApiController]
     public class AgendamentoController : ControllerBase
     {
