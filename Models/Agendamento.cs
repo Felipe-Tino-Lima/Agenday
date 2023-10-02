@@ -1,14 +1,10 @@
-using System;
-using System.ComponentModel.DataAnnotations;
+namespace Agenday.Models;
 
-namespace Agenday.Models
-{
-    public class Agendamento 
+    public class Agendamentos
     {
         //Data Annotations
         
-        public Agendamento() => CriadoEm = DateTime.Now;
+        public Agendamentos() => CriadoEm = DateTime.Now;
         public int AgendamentoId { get; set; }
         public DateTime CriadoEm { get; set; }
     }
-}

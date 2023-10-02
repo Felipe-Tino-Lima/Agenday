@@ -1,74 +1,49 @@
+﻿namespace Agendamento.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Agenday.Models;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
+using Agenday.Data;
 
-namespace Agenday.AgendamentoController
+[ApiController]
+[Route("api/agendamento")]
+public class AgendamentoController : ControllerBase
 {
-    [Route("api/agendamento")]
-    [ApiController]
-    public class AgendamentoController : ControllerBase
+    private readonly AppDataContext _context;
+
+    public AgendamentoController(AppDataContext context)
     {
-        private readonly DbContext _context;
+        _context = context;
+    }
 
-        public AgendamentoController (DbContext context) =>
-            _context = context;
-
-
-        private static List<Agendamento> agendamentos = new List<Agendamento>();
-
-        [HttpGet]
-        [Route("Listar")]
-        public IActionResult Listar() =>
-            Ok(_context.Agendamento.ToList());
-
-
-      
-        [HttpPost]
-        [Route("cadastrar")]
-        public IActionResult Cadastrar([FromBody] Agendamento agendamento)
+    // GET: api/categoria/listar
+    [HttpGet]
+    [Route("listar")]
+    public IActionResult Listar()
+    {
+        try
         {
-            _context.Agendamento.Add(agendamento);
+            List<Agendamentos> agendamentos = _context.Agendamentos.ToList();
+            return Ok(agendamentos);
+        }
+        catch (Exception e)
+        {
+            return BadRequest(e.Message);
+        }
+    }
+
+    // POST: api/categoria/cadastrar
+    [HttpPost]
+    [Route("cadastrar")]
+    public IActionResult Cadastrar([FromBody] Agendamentos agendamento)
+    {
+        try
+        {
+            _context.Add(agendamento);
             _context.SaveChanges();
             return Created("", agendamento);
         }
-
-        [Route("deletar/{id}")]
-        [HttpDelete]
-         public IActionResult Deletar([FromRoute] int id){
-            Agendamento agendamento = _context.Agendamento.Find(id);
-            if (agendamento != null)
-            {
-                _context.Agendamento.Remove(agendamento);
-                _context.SaveChanges();
-                return Ok(agendamento);
-            }
-            return NotFound();
-        }
-
-    
-        [Route("alterar")]
-        [HttpPatch]
-
-        public IActionResult Alterar([FromBody] Agendamento agendamento)
+        catch (Exception e)
         {
-
-            _context.Agendamento.Update(agendamento);
-            _context.SaveChanges();
-            return Ok(agendamento);
-        }
-    }
-
-    internal class Agendamento
-    {
-    }
-
-    internal class DataContext
-    {
-        internal void SaveChanges()
-        {
-            throw new NotImplementedException();
+            return BadRequest(e.Message);
         }
     }
 }

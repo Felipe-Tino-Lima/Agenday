@@ -13,7 +13,7 @@ Content-Type: application/json
 {
   "Cliente": "aaaa",
   "cpf" : "123",
-  "Usuario": "Joses",
+  "Artista": "Joses",
   "DataAgendamento": ""
 }
 
@@ -24,3 +24,10 @@ DELETE  https://localhost:5001/api/agendameto/deletar/6
 ### Alterar um agendamento
 PATCH  https://localhost:5001/api/agendamento/alterar
 Content-Type: application/json
+
+#   {
+#     "nome" : "joaozin",
+#     "cpf" : "amanda"
+#   }
+
+//confirmar a forma de buscar o agendamento, data, nome do artista ou ID

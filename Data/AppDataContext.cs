@@ -1,6 +1,5 @@
-using Agenday.AgendamentoController;
-using Microsoft.EntityFrameworkCore;
 using Agenday.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Agenday.Data;
 public class AppDataContext : DbContext
@@ -10,5 +9,6 @@ public class AppDataContext : DbContext
 
     }
 
-
+    //Classes que vão se tornar tabelas no banco de dados
+    public DbSet<Agendamentos> Agendamentos { get; set; }
 }
