@@ -23,7 +23,7 @@ namespace Agenday.AgendamentoController
             Ok(_context.Agendamento.ToList());
 
 
-        //POST:  /api/funcionario/cadastrar
+      
         [HttpPost]
         [Route("cadastrar")]
         public IActionResult Cadastrar([FromBody] Agendamento agendamento)
@@ -33,7 +33,6 @@ namespace Agenday.AgendamentoController
             return Created("", agendamento);
         }
 
-        // DELETE: /api/artista/deletar/1
         [Route("deletar/{id}")]
         [HttpDelete]
          public IActionResult Deletar([FromRoute] int id){
@@ -47,7 +46,7 @@ namespace Agenday.AgendamentoController
             return NotFound();
         }
 
-        // PATCH: /api/artista/alterar
+    
         [Route("alterar")]
         [HttpPatch]
 
