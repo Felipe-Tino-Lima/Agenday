@@ -1,25 +1,27 @@
-### Listar os agendamentos 
-GET https://localhost:5111/Agenday/Agendameto/Listar
+### Listar produtos
+GET https://localhost:7058/api/agendamento/listar
 
+### Buscar produto por nome
+GET https://localhost:7058/api/agendamento/buscar/
 
-### Buscar os agendamentos
-GET https://localhost:5111/Agenday/Agendamento/buscar
-
-
-### Cadastrar novos agendamentos
-POST https://localhost:5111/Agenday/Agendameto/cadastrar
+### Cadastrar produto
+POST https://localhost:7058/api/agendamento/cadastrar
 Content-Type: application/json
 
 {
-  "AgendamentoId" : "",
-  "nome" : "Tino",
-  "AgendadoEm": ""
+    "AgendamentoId" : "",
+    "Usuario" : "Feijão",
+    "AgendadiEm":"",
+    
 }
 
-### Deletar um agendamento
-DELETE  https://localhost:5111/Agenday/Agendameto/deletar
+### Remover produto pelo ID
+DELETE https://localhost:7058/api/agendamento/deletar/
 
-
-### Alterar um agendamento
-PATCH  https://localhost:5111/Agenday/Agendamento/alterar
+### Alterar produto pelo ID
+PUT https://localhost:7058/api/agendamento/alterar/
 Content-Type: application/json
+
+{
+    
+}

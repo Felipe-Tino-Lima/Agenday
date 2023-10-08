@@ -9,6 +9,7 @@ namespace Agenday
         public void ConfigureServices(IServiceCollection services)
         {
             // Configure os serviços da aplicação aqui.
+            
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
