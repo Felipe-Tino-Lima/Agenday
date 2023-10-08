@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\Agenday.csproj": {}
+    "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\Agenday.csproj": {
+    "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\Agenday.csproj",
+        "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj",
         "projectName": "Agenday",
-        "projectPath": "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\Agenday.csproj",
-        "packagesPath": "C:\\Users\\Tino\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\obj\\",
+        "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj",
+        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tino\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
