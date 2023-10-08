@@ -1,4 +1,4 @@
-namespace AgendayCliente.Models;
+namespace Agenday.Models;
 
 public class NovoCliente
 {
