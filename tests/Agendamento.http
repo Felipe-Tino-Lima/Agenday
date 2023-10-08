@@ -15,6 +15,7 @@ Content-Type: application/json
     
 }
 
+
 ### Remover produto pelo ID
 DELETE https://localhost:7058/api/agendamento/deletar/
 
