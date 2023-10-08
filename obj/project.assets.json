@@ -1627,19 +1627,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tino\\.nuget\\packages\\": {}
+    "C:\\Users\\Amaan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\Agenday.csproj",
+      "projectUniqueName": "C:\\Users\\Amaan\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj",
       "projectName": "Agenday",
-      "projectPath": "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\Agenday.csproj",
-      "packagesPath": "C:\\Users\\Tino\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\obj\\",
+      "projectPath": "C:\\Users\\Amaan\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj",
+      "packagesPath": "C:\\Users\\Amaan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Amaan\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tino\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Amaan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
