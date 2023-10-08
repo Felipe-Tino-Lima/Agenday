@@ -1,33 +1,25 @@
 ### Listar os agendamentos 
-GET https://localhost:5001/api/agendameto/Listar
+GET https://localhost:5111/Agenday/Agendameto/Listar
 
 
 ### Buscar os agendamentos
-GET https://localhost:5001/api/agendamento/buscar/123
+GET https://localhost:5111/Agenday/Agendamento/buscar
 
 
 ### Cadastrar novos agendamentos
-POST https://localhost:5001/api/agendameto/cadastrar
+POST https://localhost:5111/Agenday/Agendameto/cadastrar
 Content-Type: application/json
 
 {
-  "Cliente": "aaaa",
-  "cpf" : "123",
-  "Artista": "Joses",
-  "DataAgendamento": ""
+  "AgendamentoId" : "",
+  "nome" : "Tino",
+  "AgendadoEm": ""
 }
 
 ### Deletar um agendamento
-DELETE  https://localhost:5001/api/agendameto/deletar/6
+DELETE  https://localhost:5111/Agenday/Agendameto/deletar
 
 
 ### Alterar um agendamento
-PATCH  https://localhost:5001/api/agendamento/alterar
+PATCH  https://localhost:5111/Agenday/Agendamento/alterar
 Content-Type: application/json
-
-#   {
-#     "nome" : "joaozin",
-#     "cpf" : "amanda"
-#   }
-
-//confirmar a forma de buscar o agendamento, data, nome do artista ou ID

@@ -1627,26 +1627,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aluno\\.nuget\\packages\\": {}
+    "C:\\Users\\Tino\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Aluno\\Documents\\GitHub\\Agenday\\Agenday.csproj",
+      "projectUniqueName": "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\Agenday.csproj",
       "projectName": "Agenday",
-      "projectPath": "c:\\Users\\Aluno\\Documents\\GitHub\\Agenday\\Agenday.csproj",
-      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Aluno\\Documents\\GitHub\\Agenday\\obj\\",
+      "projectPath": "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\Agenday.csproj",
+      "packagesPath": "C:\\Users\\Tino\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tino\\Documents\\GitHub\\Agenday\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Tino\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1693,7 +1691,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
       }
     }
   }

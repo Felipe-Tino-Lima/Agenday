@@ -4,7 +4,10 @@ namespace Agenday.Models;
     {
         //Data Annotations
         
-        public Agendamentos() => CriadoEm = DateTime.Now;
+        public Agendamentos() => AgendadoEm = DateTime.Now;
         public int AgendamentoId { get; set; }
-        public DateTime CriadoEm { get; set; }
+
+        public int Usuario {get; set;}
+
+        public DateTime AgendadoEm { get; set; }
     }
