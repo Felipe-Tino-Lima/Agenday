@@ -1,0 +1,27 @@
+### Listar produtos
+GET https://localhost:7058/api/servico/listar
+
+### Buscar produto por nome
+GET https://localhost:7058/api/servico/buscar/
+
+### Cadastrar produto
+POST https://localhost:7058/api/servico/cadastrar
+Content-Type: application/json
+
+{
+    "AgendamentoId" : "",
+    "Usuario" : "Feijão",
+    "AgendadiEm":"",
+    
+}
+
+### Remover produto pelo ID
+DELETE https://localhost:7058/api/agendamento/deletar/
+
+### Alterar produto pelo ID
+PUT https://localhost:7058/api/agendamento/alterar/
+Content-Type: application/json
+
+{
+    
+}

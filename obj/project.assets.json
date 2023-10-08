@@ -1627,16 +1627,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\bruno\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\Amaan\\.nuget\\packages\\": {}
->>>>>>> 2fbc2107bff190d86b4fdca6199a7e098a3f254c
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj",
       "projectName": "Agenday",
       "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj",
@@ -1645,16 +1640,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-      "projectUniqueName": "C:\\Users\\Amaan\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj",
-      "projectName": "Agenday",
-      "projectPath": "C:\\Users\\Amaan\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj",
-      "packagesPath": "C:\\Users\\Amaan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amaan\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\Amaan\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 2fbc2107bff190d86b4fdca6199a7e098a3f254c
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1709,5 +1694,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

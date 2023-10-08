@@ -8,17 +8,9 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Agenday
 build_property.RootNamespace = Agenday
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\bruno\OneDrive\Área de Trabalho\Agenday\Agenday\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\bruno\OneDrive\Área de Trabalho\Agenday\Agenday
-=======
-build_property.ProjectDir = C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\
-build_property.RazorLangVersion = 6.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday
->>>>>>> 2fbc2107bff190d86b4fdca6199a7e098a3f254c
 build_property._RazorSourceGeneratorDebug = 
