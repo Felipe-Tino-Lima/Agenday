@@ -1,0 +1,27 @@
+### Listar Clientes
+GET https://localhost:7058/api/cliene/listar
+
+### Buscar cliente por nome
+GET https://localhost:7058/api/cliente/buscar/
+
+### Cadastrar cliente
+POST https://localhost:7058/api/cliente/cadastrar
+Content-Type: application/json
+
+{
+    "ClienteID" : "",
+    "Nome" : "Joaquina",
+    "DataCriacao":"",
+    
+}
+
+### Remover Cliente pelo ID
+DELETE https://localhost:7058/api/cliente/deletar/
+
+### Alterar Cliente pelo ID
+PUT https://localhost:7058/api/cliente/alterar/
+Content-Type: application/json
+
+{
+    
+}

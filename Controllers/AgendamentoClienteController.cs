@@ -1,31 +1,31 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using AgendayCliente.Models;
+using Agenday.Models;
 
 namespace AgendayCliente.Controllers;
 public class AgendamentoClienteController : Controller
 {
-    private static List<AgendamentoCliente> agendamentos = new List<AgendamentoCliente>();
+    private static List<NovoCliente> clientes = new List<NovoCliente>();
 
-    // Ação para exibir a lista de agendamentos
+    // Ação para exibir a lista de Clientes
     public IActionResult Index()
     {
-        return View(agendamentos);
+        return View(clientes);
     }
 
-    // Ação para exibir o formulário de criação de agendamento
-    public IActionResult NovoAgendamento()
+    // Ação para exibir o formulário de criação de clientes
+    public IActionResult NovoCliente()
     {
         return View();
     }
 
-    // Ação para lidar com o POST do formulário de criação
+    // Ação para lidar com o POST do formulário de criação de clientes
     [HttpPost]
-    public IActionResult NovoAgendamento(AgendamentoCliente agendamento)
+    public IActionResult NovoCliente(NovoCliente cliente)
     {
-        agendamento.DataCriacao = DateTime.Now;
-        agendamentos.Add(agendamento);
+        cliente.DataCriacao = DateTime.Now;
+        clientes.Add(cliente);
 
         return RedirectToAction("Index");
     }
