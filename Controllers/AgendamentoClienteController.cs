@@ -2,8 +2,14 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using Agenday.Models;
+using Agenday.Data;
 
-namespace AgendayCliente.Controllers;
+
+
+namespace Agenday.Controllers;
+
+[ApiController]
+[Route("api/cliente")]
 public class AgendamentoClienteController : Controller
 {
     private static List<NovoCliente> clientes = new List<NovoCliente>();
@@ -15,6 +21,9 @@ public class AgendamentoClienteController : Controller
     }
 
     // Ação para exibir o formulário de criação de clientes
+
+    [HttpGet]
+    [Route("listarcliente")]
     public IActionResult NovoCliente()
     {
         return View();
@@ -22,6 +31,9 @@ public class AgendamentoClienteController : Controller
 
     // Ação para lidar com o POST do formulário de criação de clientes
     [HttpPost]
+    [Route("cadastrarcliente")]
+
+
     public IActionResult NovoCliente(NovoCliente cliente)
     {
         cliente.DataCriacao = DateTime.Now;

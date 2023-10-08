@@ -1,22 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj",
-        "projectName": "Agenday",
-        "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj",
-        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
     "C:\\Users\\Amaan\\OneDrive\\Área de Trabalho\\Agenday\\Agenday\\Agenday.csproj": {}
   },
   "projects": {
@@ -31,7 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amaan\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 2fbc2107bff190d86b4fdca6199a7e098a3f254c
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -55,6 +38,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.22, )"

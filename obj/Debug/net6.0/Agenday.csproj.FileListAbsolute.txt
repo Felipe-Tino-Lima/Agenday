@@ -184,3 +184,6 @@ C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\obj\Debug\net6.0\Agend
 C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\obj\Debug\net6.0\Agenday.genruntimeconfig.cache
 C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\obj\Debug\net6.0\ref\Agenday.dll
 >>>>>>> 2fbc2107bff190d86b4fdca6199a7e098a3f254c
+C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll

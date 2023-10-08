@@ -1,5 +1,5 @@
 ### Listar Clientes
-GET https://localhost:7058/api/cliene/listar
+GET https://localhost:7058/api/cliente/listar
 
 ### Buscar cliente por nome
 GET https://localhost:7058/api/cliente/buscar/

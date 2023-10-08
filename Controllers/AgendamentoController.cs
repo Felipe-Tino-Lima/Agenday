@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Agenday.Models;
 using Agenday.Data;
+using System;
 
 [ApiController]
 [Route("api/agendamento")]
