@@ -1,11 +1,11 @@
 ### Listar Clientes
-GET https://localhost:7058/api/cliente/listar
+GET https://localhost:7058/api/cliente/listarcliente
 
 ### Buscar cliente por nome
 GET https://localhost:7058/api/cliente/buscar/
 
 ### Cadastrar cliente
-POST https://localhost:7058/api/cliente/cadastrar
+POST https://localhost:7058/api/cliente/cadastrarcliente
 Content-Type: application/json
 
 {

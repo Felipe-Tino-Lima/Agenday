@@ -12,5 +12,7 @@ namespace Agenday.Data
 
         // Classes que vão se tornar tabelas no banco de dados
         public DbSet<Agendamentos> Agendamentos { get; set; }
+
+        public DbSet<NovoCliente> novoCliente {get; set;}
     }
 }

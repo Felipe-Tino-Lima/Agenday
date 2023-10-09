@@ -1,21 +1,14 @@
-namespace AgendayMKll.Models;
-public class Usuario
-{
-    public int Id { get; set; }
-    public string? Nome { get; set; }
-    public object? Email { get; internal set; }
-}
 
+namespace Agenday.Models;
 public class Servico
 {
-    public int Id { get; set; }
+    public int ServicoId { get; set; }
     public string? Nome { get; set; }
-    public object? Preco { get; internal set; }
+
+    public string Cliente {get;set; }
+
+    public string Usuario {get; set ;}
+
+    public int Preco { get; internal set; }
 }
 
-public class Cliente
-{
-    public int Id { get; set; }
-    public string? Nome { get; set; }
-    public object? Telefone { get; internal set; }
-}

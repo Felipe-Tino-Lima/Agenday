@@ -1,44 +1,50 @@
+namespace Agenday.Controllers;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
 using Agenday.Models;
 using Agenday.Data;
-
-
-
-namespace Agenday.Controllers;
+using System;
 
 [ApiController]
 [Route("api/cliente")]
-public class AgendamentoClienteController : Controller
+public class AgendamentoClienteController : ControllerBase
 {
-    private static List<NovoCliente> clientes = new List<NovoCliente>();
+    private readonly AppDataContext _context;
 
-    // Ação para exibir a lista de Clientes
-    public IActionResult Index()
+    public AgendamentoClienteController(AppDataContext context)
     {
-        return View(clientes);
+        _context = context;
     }
 
-    // Ação para exibir o formulário de criação de clientes
-
+    // GET: api/categoria/listar
     [HttpGet]
     [Route("listarcliente")]
-    public IActionResult NovoCliente()
+    public IActionResult Listar()
     {
-        return View();
+        try
+        {
+            List<NovoCliente> novoClientes = _context.novoCliente.ToList();
+            return Ok(novoClientes);
+        }
+        catch (Exception e)
+        {
+            return BadRequest(e.Message);
+        }
     }
 
-    // Ação para lidar com o POST do formulário de criação de clientes
+    // POST: api/categoria/cadastrar
     [HttpPost]
     [Route("cadastrarcliente")]
-
-
-    public IActionResult NovoCliente(NovoCliente cliente)
+    public IActionResult Cadastrar([FromBody] NovoCliente novoCliente)
     {
-        cliente.DataCriacao = DateTime.Now;
-        clientes.Add(cliente);
-
-        return RedirectToAction("Index");
+        try
+        {
+            _context.Add(novoCliente);
+            _context.SaveChanges();
+            return Created("", novoCliente);
+        }
+        catch (Exception e)
+        {
+            return BadRequest(e.Message);
+        }
     }
 }
