@@ -13,6 +13,7 @@ namespace Agenday.Controllers
 
         // Endpoint para listar todos os serviços
         [HttpGet]
+         [Route("ListarServico")]
         public IActionResult ListarServicos()
         {
             return Ok(_servicos);
@@ -20,6 +21,7 @@ namespace Agenday.Controllers
 
         // Endpoint para cadastrar um novo serviço
         [HttpPost]
+         [Route("CadastrarServico")]
         public IActionResult CadastrarServico([FromBody] Servico novoServico)
         {
             if (novoServico == null)

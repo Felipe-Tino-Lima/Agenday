@@ -187,3 +187,6 @@ C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\obj\Debug\net6.0\ref\A
 C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Amaan\OneDrive\Área de Trabalho\Agenday\Agenday\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\Agenday\Agenday\bin\Debug\net6.0\Humanizer.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\Agenday\Agenday\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\Agenday\Agenday\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
