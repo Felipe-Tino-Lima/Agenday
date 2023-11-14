@@ -22,7 +22,7 @@ public class AgendamentoClienteController : ControllerBase
     {
         try
         {
-            List<NovoCliente> novoClientes = _context.novoCliente.ToList();
+            List<NovoCliente> novoClientes = _context.NovoClientes.ToList();
             return Ok(novoClientes);
         }
         catch (Exception e)
