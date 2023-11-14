@@ -1,11 +1,11 @@
 ### Listar produtos
-GET https://localhost:7058/api/servico/listar
+GET https://localhost:7058/api/servico/listarservico
 
 ### Buscar produto por nome
 GET https://localhost:7058/api/servico/buscar/
 
 ### Cadastrar produto
-POST https://localhost:7058/api/servico/cadastrar
+POST https://localhost:7058/api/servico/cadastrarservico
 Content-Type: application/json
 
 {
@@ -16,10 +16,10 @@ Content-Type: application/json
 }
 
 ### Remover produto pelo ID
-DELETE https://localhost:7058/api/agendamento/deletar/
+DELETE https://localhost:7058/api/servico/deletar/
 
 ### Alterar produto pelo ID
-PUT https://localhost:7058/api/agendamento/alterar/
+PUT https://localhost:7058/api/servico/alterar/
 Content-Type: application/json
 
 {
